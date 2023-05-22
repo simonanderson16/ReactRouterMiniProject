@@ -1,0 +1,133 @@
+
+.answer_choice {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .answer_choice p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .answer_choice .MuiCheckbox-root {
+    margin-right: 10px;
+  }
+
+  .answer_choice .MuiButton-root {
+    margin: 0px;
+    width: 500px;
+    height: 100px;
+    padding: 0px;
+  }
+
+  .whole_question h3{
+    text-align: left;
+    margin-left: -25px;
+  }
+
+  .whole_question{
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .trivia-intro  h2{
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .trivia-intro .MuiButton-root {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50pxpx;
+    background-color: purple;
+    width: 200px;
+    font-size: large;
+  }
+
+  #more-questions-button{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50pxpx;
+    background-color: purple;
+    width: 100px;
+    font-size: large;
+  }
+
+  .more-questions-prompt {
+    margin-left: 50px;
+  }
+
+
+  .trivia-intro {
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .answer-select {
+    width: 20px;
+    height: 20px;
+  }
+
+  .question-text {
+    font-weight: bolder;
+  }
+
+  .correct {
+    color: limegreen;
+    font-weight: bolder;
+  }
+  
+  .incorrect {
+    color: red;
+    font-weight: bolder;
+  }
+
+  .App h1 {
+    color: purple;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+
+  .intro-options {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .game-over-text {
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .end-buttons {
+    display: flex;
+    justify-content: left;
+  }
+
+  .end-buttons .MuiButton-root{
+    margin-top: 0px;
+    margin-right: 50px;
+  }
